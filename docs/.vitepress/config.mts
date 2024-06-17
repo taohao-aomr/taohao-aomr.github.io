@@ -11,6 +11,9 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
       { text: 'Test', link: '/test' },
+      { text: 'JS', link: '/js' },
+      { text: 'VUE', link: '/vue' },
+      { text: 'React面试问题', link: '/react' }
     ],
 
     sidebar: [
@@ -19,7 +22,10 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Runtime Test', link: '/test' }
+          { text: 'Runtime Test', link: '/test' },
+          { text: 'JS', link: '/js' },
+          { text: 'VUE', link: '/vue' },
+          { text: 'React面试问题', link: '/react' }
         ]
       }
     ],
